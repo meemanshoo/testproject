@@ -4,10 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Plus</title>
-    <link href="footer.css" rel="stylesheet">
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="testimonialStyle.css">
+
+
     <style>
         * {
             margin: 0;
@@ -80,15 +78,15 @@
                 height: 100%;
                 transform: none !important;
                 overflow-y: scroll;
-            overflow-x: hidden;
-            scroll-snap-type: y mandatory;
+                overflow-x: hidden;
+                scroll-snap-type: y mandatory;
             }
         }
     </style>
 </head>
 
 <body>
-    <div class="container elementX " >
+    <div class="container  " id="elementX">
         <section>
             <div class="content">
                 <h2>
@@ -130,12 +128,9 @@
             </div>
         </section>
     </div>
+    <script src="../jquery.min.js"></script>
     <script type="text/javascript">
-        const elementX = document.getElementById('elementX');
-        const elementY = document.getElementById('elementY');
-
-        // Scroll element X to the position of element Y
-        // elementX.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        
     </script>
 </body>
 
