@@ -6,25 +6,37 @@
 <body>
   <div id="fullpage">
     <div class="section">
-      <h1>Page 1</h1>
-      <p>This is the content of page 1</p>
-      <button id="nextPageButton">Go</button>
+      <h1>Customer Support</h1>
+      <p>This is the content of page.</p>
+      <button id="customersupport">Go</button>
     </div>
     <div class="section">
-      <h1>Page 2</h1>
-      <p>This is the content of page 2.</p>
+      <h1>Term of Service</h1>
+      <p>This is the content of page.</p>
+      <button id="termsofservice">Go</button>
     </div>
     <div class="section">
-      <h1>Page 3</h1>
-      <p>This is the content of page 3.</p>
+      <h1>Return and Refund Policy</h1>
+      <p>This is the content of page.</p>
+      <button id="returnandrefundpolicy">Go</button>
     </div>
   </div>
 
 
   <script>
-    document.getElementById('nextPageButton').addEventListener('click', function() {
+    document.getElementById('customersupport').addEventListener('click', function() {
         // Redirect to the next page (replace 'page2.html' with the actual filename)
         window.location.href = 'customer_support.html';
+    });
+
+    document.getElementById('termsofservice').addEventListener('click', function() {
+        // Redirect to the next page (replace 'page2.html' with the actual filename)
+        window.location.href = 'terms_of_servise.html';
+    });
+
+    document.getElementById('returnandrefundpolicy').addEventListener('click', function() {
+        // Redirect to the next page (replace 'page2.html' with the actual filename)
+        window.location.href = 'return_and_refund_policy.html';
     });
 </script>
 </body>
