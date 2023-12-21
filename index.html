@@ -6,8 +6,9 @@
 <body>
   <div id="fullpage">
     <div class="section">
-      <h1>Page 2</h1>
-      <p>This is the content of page 1.1</p>
+      <h1>Page 1</h1>
+      <p>This is the content of page 1</p>
+      <button id="nextPageButton">Go</button>
     </div>
     <div class="section">
       <h1>Page 2</h1>
@@ -19,17 +20,12 @@
     </div>
   </div>
 
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script> -->
+
   <script>
-
-
-// new fullpage('#fullpage', {
-//   autoScrolling: true,
-//   navigation: true,
-//   anchors: ['page1', 'page2', 'page3']
-// });
-
-
-  </script>
+    document.getElementById('nextPageButton').addEventListener('click', function() {
+        // Redirect to the next page (replace 'page2.html' with the actual filename)
+        window.location.href = 'customer_support.html';
+    });
+</script>
 </body>
 </html>
